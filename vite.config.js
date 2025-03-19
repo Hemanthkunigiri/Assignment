@@ -12,5 +12,6 @@ export default defineConfig({
   server: {
     port: process.env.PORT || 3000, // Use the PORT environment variable or default to 3000
     host: '0.0.0.0', // Bind to all interfaces to allow external access
+    allowedHosts: ['assignment-420a.onrender.com'],
   },
 })
